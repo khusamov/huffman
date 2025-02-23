@@ -1,0 +1,1 @@
+export type LastElementOf<T extends readonly unknown[]> = T extends readonly [...unknown[], infer Last] ? Last : never
